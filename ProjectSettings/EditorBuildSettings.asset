@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Buaya1.unity
+    guid: 9871ee2236261444882c736ff47e5ecb
   - enabled: 1
     path: Assets/Scenes/Buaya.unity
-    guid: 9871ee2236261444882c736ff47e5ecb
+    guid: c49e9683b006f024d831980f4edc347a
   m_configObjects: {}
