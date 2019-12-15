@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-    ufoLicenseKey: QVFXV0NuZi8vLy8vQUFBQUtLNHN3bmQvb2tWZXBkeWZSb2xvZjZJSlRYeCtKcG5wK2FRb1dMa3U2S0ZDL2R2ckQ3T0ZHRFMwc2JUR2hNTmtSOXdmRXExREV2RUw4N2RqYmJKN2hRNzl1OEdGa1R2S1NRTlN0d0Fma1Btd2FSanRwc2IvS0RWRkpCRnc1ZmFwWkdraE5PU005aUlUVXRFRk53cmI2VjBHZTN6ZkVTZFpjSEY1WnpIYlIwSmRrcTlacTBrUmxkdFMvcWNNSkJncjlvaktmMTdnNVNaRS9PcTRTNUV6bmZCYitPQWFmc05weGNtcEdJL25TREpldFU5RjRRSzdqWXBtUkk0VEFUZG56T0tEMlJKVUduSTVZME9LSWdiaVlqNkZNdUUyRjlNMU85QjFxR3VHMmE4NGI1VGRheUc2cEtlVzNrTU10M2MrM2doQ1QwZnNJSWJQK3JqSHcvdEdzdVVPa0M3NGpIWHB6WkNSTVM4ZW11Q2U=
+    ufoLicenseKey: QVNZV0cxWC8vLy8vQUFBQUtPN000M3ZYblVhd3IvODYwL2xRQ1dnT0xYN3ZWTUE0VDRqbnd4aUtvTG5TeWgydS83Q3pMaExYQkNkTUZ4cXBtTVluRWo5Y0xqaWtnNEQvc2lBUkZOSngxbUdmQlA2cVNId055ZWVGd0loRkFtS3JkVmlYbkFOUExwR3c3M0tmaWtxRnQxZmkrajJPanVPNmZQMUJLUjRGNHFvM3BDc0FvMi95Y3lwaDZhYVFkOVlISFN5TmI2WExqS0VLcXU3RmU1b1Z3NFVrUTdQTWV3YXBTRndPS3NteTYrekRXOWM5MmxCbkh2WTdvWVlUdmpSRWd1emEvSG14MkZacHFTVWlVNFhablZzSUluM0UrTkoxS2RSd0F6ejdMS29OMk5yTFBQNzF0OFhlS0tJN1d0UmpIQmZGZk5LVEp0VHM4T1c0OWJOVzVSQStMZ3kzeVREcHVlWjRHMDliQVQ2d29Nc29vMmtsL1l4eit3OHY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 4
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
@@ -45,7 +45,7 @@ MonoBehaviour:
       FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   database:
-    disableModelExtraction: 0
+    disableModelExtraction: 1
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -56,7 +56,7 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    arcoreRequirement: 0
+    arcoreRequirement: 1
     trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
@@ -66,6 +66,6 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: USB Camera
     turnOffWebCam: 0
     renderTextureLayer: 30
