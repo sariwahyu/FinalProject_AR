@@ -11,16 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Binatang.unity
     guid: 8363c449806fa3247a5f3b80e76ab6ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Elang.unity
     guid: c49e9683b006f024d831980f4edc347a
   - enabled: 1
     path: Assets/Scenes/Piranha.unity
     guid: 4ea3ec84ff66652418d113cc3259b5b2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StagDeer.unity
     guid: 67dd1cdb6370d8344a566637b8c98d3f
   - enabled: 1
     path: Assets/Scenes/Buaya.unity
     guid: 89ed636faaaf34959983482a021ac4e6
+  - enabled: 1
+    path: Assets/Scenes/BuayaHabitat.unity
+    guid: 243939946206da84990d428dad65f253
+  - enabled: 1
+    path: Assets/Scenes/PiranhaHabitat.unity
+    guid: ff9539cb4252e9445ba9f6e26d4f3399
   m_configObjects: {}
