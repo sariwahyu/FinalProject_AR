@@ -23,7 +23,8 @@ public class AudioTrack : MonoBehaviour, ITrackableEventHandler
 
     void ITrackableEventHandler.OnTrackableStateChanged(TrackableBehaviour.Status previousStatus, TrackableBehaviour.Status newStatus)
     {
-        if(
+        if(newStatus == TrackableBehaviour.Status.DETECTED ||
+           newStatus == TrackableBehaviour.Status.TRACKED ||
            newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
             AudiObject.Play();  
