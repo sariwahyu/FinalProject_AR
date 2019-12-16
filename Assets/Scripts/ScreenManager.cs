@@ -18,6 +18,7 @@ public class ScreenManager : MonoBehaviour
     public void ExitApp()
     {
         Application.Quit();
+        Debug.Log("Quit Game!");
     }
 
 }

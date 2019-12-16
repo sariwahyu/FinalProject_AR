@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 37540391559c29b4ea3a757ae38a30d1
+  - enabled: 1
+    path: Assets/Scenes/Binatang.unity
+    guid: 8363c449806fa3247a5f3b80e76ab6ad
+  - enabled: 1
+    path: Assets/Scenes/Elang.unity
+    guid: c49e9683b006f024d831980f4edc347a
+  - enabled: 1
+    path: Assets/Scenes/Piranha.unity
+    guid: 4ea3ec84ff66652418d113cc3259b5b2
+  - enabled: 1
+    path: Assets/Scenes/StagDeer.unity
+    guid: 67dd1cdb6370d8344a566637b8c98d3f
+  - enabled: 1
     path: Assets/Scenes/Buaya.unity
     guid: 89ed636faaaf34959983482a021ac4e6
   m_configObjects: {}
